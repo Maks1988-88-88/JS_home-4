@@ -32,7 +32,7 @@ function clickimg () {
 document.getElementById('num').onclick = num;
 
 function num () {
-	var p1 = document.getElementsByTagName('p');
+	var p1 = document.getElementsByClassName('p');
 
 
 for (var i=0 ; i<p1.length; i++) {
